@@ -1,0 +1,42 @@
+.container{
+    color: rgb(0, 0, 0);
+    max-width: 1100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 24%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .card{
+        margin: 2%;
+    }
+
+
+    .diferencial_empreendedor{
+        padding: 2%;
+    }
+
+    .box{
+        display: flex;
+        justify-content: space-between;
+
+        li{
+            text-align: left;
+        }
+
+        #imagem2{
+            width: 70%;
+            margin: auto;
+        }
+
+        .texto{
+            text-align: justify;
+        }
+
+        @media(max-width:775px){
+            flex-wrap: wrap;
+        }
+    }    
+
+}
+

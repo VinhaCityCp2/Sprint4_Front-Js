@@ -1,0 +1,89 @@
+aside{
+    display: grid;
+    grid-template-columns: 25%;
+    justify-content: center;
+    color: whitesmoke;
+
+    @media(max-width:1000px){
+        display: grid;
+        grid-template-columns: auto;
+        margin: 5px;
+        padding: 5px;
+
+    }
+
+    .doacao{ 
+        max-width: 750px;
+        max-height: 700px;
+        background-color: rgb(31, 31, 31);
+        margin: auto;
+        border-radius: 20px;
+        border-style: inset;
+        padding: 40px;
+        
+
+            h1{
+                text-align: center;
+            }
+
+            p{
+                text-align: justify;
+            }
+
+        .redes_sociais{
+            display: grid;
+            grid-template-columns: 60px 260px;  
+            
+            @media(max-width:1000px){
+                display: flex;     
+                
+            }
+        }
+            
+        .img{
+            max-width: 50px;
+            padding: 5px;
+            margin: 5px;
+
+            @media(max-width:1000px){
+                display: flex;     
+            }
+        }
+
+        .contatos{
+            margin-left: 2%;
+
+            @media(max-width:1000px){
+                display: flex;   
+                flex-direction: column;
+                margin: 10px;
+                margin-left: 0;  
+            }
+            
+        }
+
+        .contato{
+            margin-bottom: 5%;
+            padding: 5%;
+        }
+
+        .botao_doacao{
+            display: flex;
+            justify-content: center;
+            padding: 30%;
+            margin-left: 215%;     
+            
+            @media(max-width:1000px){
+                padding: 100px;
+                margin: 1px;
+            }
+            
+            button{
+                width: 200%;
+                height: 120%;        
+            }
+
+        }
+
+    }
+}
