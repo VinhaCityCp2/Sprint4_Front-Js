@@ -8,4 +8,7 @@
   <li> RM98287 - Raí Gumieri dos Santos - 1ESPI </li>
 </ul>
 
+<p> Usuário: admin </p>
+<p> Senha: 12345 </p>
+
 <h3> Link do site: https://sprint4-front-js.vercel.app/ </h3>
